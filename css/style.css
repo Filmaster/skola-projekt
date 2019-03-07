@@ -40,11 +40,11 @@ h3 {
     background-color: rgb(161, 111, 77);
 }
 
-#ustava p {
+#ustava p,li {
     display: none;
 }
 #predmluva{
-    color: white;
+    color:blue;
 }
 #policie{
     
