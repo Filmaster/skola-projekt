@@ -26,8 +26,8 @@ $(function(){
     var foto = $('#kviz img');
     foto.on('click', function(){
         var index = Math.floor(Math.random()*prezidenti.length);
-        $(this).attr('src','img/'+prezidenti[index].photo)
-               .attr('alt',prezidenti[index].name);
+        $(this).attr('src','img/'+[index].photo)
+               .attr('alt',[index].name);
     });
 
     /* Po kliknutí na tlačítko Ověřit se barevně ohraničí fotky */
