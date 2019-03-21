@@ -29,9 +29,9 @@ $(function(){
             var alt = $(obj).find('img').attr('alt');
             var figcaption = $(obj).find('figcaption').text();
             if (alt == figcaption) {
-                $(obj).find('img').css({'border':'2px solid green'}); 
+                $(obj).find('img').css({'border':'4px solid green'}); 
             } else {
-                $(obj).find('img').css({'border':'2px solid red'}); 
+                $(obj).find('img').css({'border':'4px solid red'}); 
             }
         });
     });
